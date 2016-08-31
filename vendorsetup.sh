@@ -16,3 +16,5 @@
 
 add_lunch_combo aosp_Z00T-eng
 add_lunch_combo aosp_Z00T-userdebug
+
+sh caf_manifest/patches/apply.sh
