@@ -16,19 +16,19 @@
 # inherit from common msm8916-common
 -include device/asus/msm8916-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/asus/Z00T
+DEVICE_PATH := device/asus/Z00L
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Z00T
+TARGET_OTA_ASSERT_DEVICE := Z00L
 
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_Z00T_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_Z00L_defconfig
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
--include vendor/asus/Z00T/BoardConfigVendor.mk
+-include vendor/asus/Z00L/BoardConfigVendor.mk

@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_Z00T.mk
+    $(LOCAL_DIR)/aosp_Z00L.mk
